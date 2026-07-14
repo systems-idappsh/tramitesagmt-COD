@@ -1,0 +1,21 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿En cuánto tiempo responden por WhatsApp?",
+      "acceptedAnswer": { "@type": "Answer", "text": "El equipo responde en horario hábil el mismo día; para casos urgentes recomendamos llamar directamente." }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Atienden clientes fuera de Perú?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Sí, se atiende de forma remota a clientes en México, Venezuela, Estados Unidos y Canadá, además de Perú." }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué necesito para iniciar un trámite?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Basta con escribir por WhatsApp contando tu caso; el equipo hace un diagnóstico inicial y te indica los siguientes pasos." }
+    }
+  ]
+}

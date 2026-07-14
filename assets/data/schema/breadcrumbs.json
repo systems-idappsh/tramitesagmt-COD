@@ -1,0 +1,18 @@
+{
+  "_comment": "Cada página inyecta su propio BreadcrumbList inline en <head>. Este archivo documenta el criterio de jerarquía usado.",
+  "pages": {
+    "index.html": [{ "name": "Inicio", "url": "https://dominio.com/" }],
+    "servicios.html": [
+      { "name": "Inicio", "url": "https://dominio.com/" },
+      { "name": "Servicios", "url": "https://dominio.com/servicios.html" }
+    ],
+    "contacto.html": [
+      { "name": "Inicio", "url": "https://dominio.com/" },
+      { "name": "Contacto", "url": "https://dominio.com/contacto.html" }
+    ],
+    "redes.html": [
+      { "name": "Inicio", "url": "https://dominio.com/" },
+      { "name": "Redes", "url": "https://dominio.com/redes.html" }
+    ]
+  }
+}

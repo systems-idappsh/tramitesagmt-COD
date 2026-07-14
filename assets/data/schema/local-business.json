@@ -1,0 +1,15 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "TRÁMITES AGMT",
+  "image": "https://dominio.com/assets/img/brand/logo-tramitesagmt.png",
+  "telephone": "+51-977-786-260",
+  "email": "tramitesagmt@gmail.com",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "PE",
+    "addressLocality": "Pendiente de confirmar dirección oficial"
+  },
+  "_comment": "Dirección temporal — reemplazar addressLocality, addressRegion, postalCode y streetAddress con datos reales antes de producción."
+}

@@ -1,0 +1,14 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [
+    { "@type": "Service", "position": 1, "name": "Visas", "url": "https://dominio.com/servicios.html#visas" },
+    { "@type": "Service", "position": 2, "name": "Pasaportes", "url": "https://dominio.com/servicios.html#pasaportes" },
+    { "@type": "Service", "position": 3, "name": "Trámites en Perú", "url": "https://dominio.com/servicios.html#tramites-peru" },
+    { "@type": "Service", "position": 4, "name": "Trámites en México", "url": "https://dominio.com/servicios.html#tramites-mexico" },
+    { "@type": "Service", "position": 5, "name": "Trámites en Venezuela", "url": "https://dominio.com/servicios.html#tramites-venezuela" },
+    { "@type": "Service", "position": 6, "name": "Canadá", "url": "https://dominio.com/servicios.html#canada" },
+    { "@type": "Service", "position": 7, "name": "Otros países", "url": "https://dominio.com/servicios.html#otros-paises" },
+    { "@type": "Service", "position": 8, "name": "Otros trámites", "url": "https://dominio.com/servicios.html#otros-tramites" }
+  ]
+}

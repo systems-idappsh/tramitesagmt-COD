@@ -1,0 +1,98 @@
+/* ==========================================================================
+   SAGMT — pages.css
+   Ajustes específicos por página. La mayoría del sistema vive en
+   components.css; aquí solo van composiciones puntuales.
+   ========================================================================== */
+
+/* ---- Home ---- */
+.section--services {
+  background: var(--bg);
+}
+
+.section--trust {
+  background: var(--surface);
+}
+
+.trust-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr));
+  gap: var(--space-md);
+}
+
+.trust-card {
+  padding: var(--space-md);
+  border-radius: var(--radius-lg);
+  background: var(--bg-soft);
+  border: 1px solid var(--border);
+}
+
+.trust-card h3 {
+  font-size: var(--fs-base);
+  margin-bottom: 0.4rem;
+}
+
+.trust-card p {
+  font-size: var(--fs-sm);
+}
+
+/* ---- Servicios ---- */
+.services-hero {
+  background: var(--navy-900);
+  color: var(--white);
+  padding-block: var(--space-lg);
+}
+
+.services-hero h1 {
+  color: var(--white);
+}
+
+.services-hero p {
+  color: var(--ink-soft);
+  max-width: 60ch;
+}
+
+/* ---- Contacto ---- */
+.about-block {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: var(--space-lg);
+  align-items: center;
+}
+
+.about-block__figure {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  aspect-ratio: 4 / 3;
+}
+
+.about-block__figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ---- Redes ---- */
+.redes-hero {
+  background: var(--navy-900);
+  color: var(--white);
+  padding-block: var(--space-lg);
+  text-align: center;
+}
+
+.redes-hero h1 {
+  color: var(--white);
+}
+
+.redes-hero p {
+  color: var(--ink-soft);
+  max-width: 56ch;
+  margin-inline: auto;
+}
+
+/* ---- Legales ---- */
+.legal-hero {
+  background: var(--bg-soft);
+  padding-block: var(--space-lg);
+  border-bottom: 1px solid var(--border);
+}

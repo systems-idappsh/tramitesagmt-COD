@@ -1,0 +1,22 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "TRÁMITES AGMT",
+  "url": "https://dominio.com",
+  "logo": "https://dominio.com/assets/img/brand/logo-tramitesagmt.png",
+  "email": "tramitesagmt@gmail.com",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+51-977-786-260",
+    "contactType": "customer service",
+    "areaServed": ["PE", "MX", "VE", "US", "CA"],
+    "availableLanguage": ["Spanish"]
+  },
+  "sameAs": [
+    "https://www.facebook.com/tramitesagmt",
+    "https://www.instagram.com/tramitesagmt/",
+    "https://x.com/tramitesagmt",
+    "https://www.tiktok.com/@tramitesagmtl",
+    "https://www.youtube.com/@tramitesagmt"
+  ]
+}
